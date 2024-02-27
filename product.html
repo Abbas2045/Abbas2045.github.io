@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SAWD</title>
+    <title>SAWD Product</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://kit.fontawesome.com/5a8da6edcd.js" crossorigin="anonymous"></script>
@@ -13,100 +13,87 @@
 </head>
 <body>
     <!--Navbar-->
-        <section id="header">
-            <a href="index.html"><img src="logo-b.png" class="logo" alt="logo"></a>
+    <section id="header">
+        <a href="index.html"><img src="logo-b.png" class="logo" alt="logo"></a>
 
-            <div>
-                <ul id="navbar" >
-                    <li><a href="index.html">Home</li>
-                        <li><a href="product.html">Product</li>
-                        <li class="last"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
-                </ul>
-            </div>
-        </section>
+        <div>
+            <ul id="navbar" >
+                <li><a href="index.html">Home</li>
+                    <li><a href="product.html">Product</li>
+                    <li class="last"><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+            </ul>
+        </div>
+    </section>
 
-    <!--Content Product-->
-    <!-- Carousel -->
-    <div id="demo" class="carousel slide" data-bs-ride="carousel">
-  <!-- The slideshow/carousel -->
-  <div class="carousel-inner">
-    
-    <div class="carousel-item active">
-      <img src="product/black watches feature.jpg" alt="Los Angeles" class="d-block" style="width:100%" height="850px" object-fit="contain">
-      <div class="carousel-caption">
-        <h4>Top Selling Product</h4>
-        <p>Black Watches</p>
-        <a href="product.html" class="btn btn-secondary rounded-pill px-3">Shop Now</a>
-      </div>
-    </div>
-    
-    <div class="carousel-item">
-      <img src="product/blue shoe feature.jpg" alt="Chicago" class="d-block" style="width:100%" height="850px" object-fit="contain">
-      <div class="carousel-caption">
-        <h4>Top Selling Product</h4>
-        <p>Blue Shoe</p>
-        <a href="product.html" class="btn btn-secondary rounded-pill px-3">Shop Now</a>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="product/red shoe feature.jpg" alt="Red shoe" class="d-block" style="width:100%" height="850px" object-fit="contain">
-      <div class="carousel-caption">
-        <h4>Top Selling Product</h4>
-        <p>Red Shoe</p>
-        <a href="product.html" class="btn btn-secondary rounded-pill px-3">Shop Now</a>
-      </div>
-    </div>
-  </div>
-
-  <!-- Left and right controls/icons -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
-</div>
-
-
-<!--Box Feature-->
-<section id="feature-box">
-    <div class="fe-box">
-        <img src="feature/f1.png" alt="Freeshipping">
-        <h6>Free Shipping</h6>
-    </div>
-    <div class="fe-box">
-        <img src="feature/f2.png" alt="Freeshipping">
-        <h6>Online Order</h6>
-    </div>
-    <div class="fe-box">
-        <img src="feature/f5.png" alt="Freeshipping">
-        <h6>Happy Sell</h6>
-    </div>
-    <div class="fe-box">
-        <img src="feature/f6.png" alt="Freeshipping">
-        <h6>24/7 Support</h6>
+<!--Product-->
+ <div class="container-product">
+    <div class="sidebar">
+        <input type="text" class="sidebar-search" placeholder="Search Something...">
+        <a href="#" class="sidebar-items">All Product</a>
+        <a href="#" class="sidebar-items">Shirt</a>
+        <a href="#" class="sidebar-items">Jeans</a>
+        <a href="#" class="sidebar-items">Shoe</a>
+        <a href="#" class="sidebar-items">Watches</a>
     </div>
 
-    
+    <div class="product">
+        <div class="product-items">
+            <img class="product-img" src="product/Tshirt.jpg" alt="Tshirt">
+            <h5 style="font-size: 1.2vw;">T-Shirt</h5>
+            <p style="font-size: 0.8vw;">detail</p>
+            <h6 style="font-size: 0.9vw;">Price</h6>
+            <button class="btn btn-secondary rounded-pill px-3" type="button">Add to Cart</button>
+        </div>
+        <div class="product-items">
+            <img class="product-img" src="product/matjeans.jpg" alt="">
+            <h5 style="font-size: 1.2vw;">Jeans</h5>
+            <p style="font-size: 0.8vw;">detail</p>
+            <h6 style="font-size: 0.9vw;">Price</h6>
+            <button class="btn btn-secondary rounded-pill px-3" type="button">Add to Cart</button>
+        </div>
+        <div class="product-items">
+            <img class="product-img" src="product/red shoe feature.jpg" alt="">
+            <h5 style="font-size: 1.2vw;">Red Shoe</h5>
+            <p style="font-size: 0.8vw;">detail</p>
+            <h6 style="font-size: 0.9vw;">Price</h6>
+            <button class="btn btn-secondary rounded-pill px-3" type="button">Add to Cart</button>
+        </div>
+        <div class="product-items">
+            <img class="product-img" src="product/black shoe.jpg" alt="">
+            <h5 style="font-size: 1.2vw;">Black Shoe</h5>
+            <p style="font-size: 0.8vw;">detail</p>
+            <h6 style="font-size: 0.9vw;">Price</h6>
+            <button class="btn btn-secondary rounded-pill px-3" type="button">Add to Cart</button>
+        </div>
+        <div class="product-items">
+            <img class="product-img" src="product/black watches feature.jpg" alt="">
+            <h5 style="font-size: 1.2vw;">Watch V.1</h5>
+            <p style="font-size: 0.8vw;">detail</p>
+            <h6 style="font-size: 0.9vw;">Price</h6>
+            <button class="btn btn-secondary rounded-pill px-3" type="button">Add to Cart</button>
+        </div>
+        <div class="product-items">
+            <img class="product-img" src="product/casio.jpg" alt="">
+            <h5 style="font-size: 1.2vw;">Watch V.2</h5>
+            <p style="font-size: 0.8vw;">detail</p>
+            <h6 style="font-size: 0.9vw;">Price</h6>
+            <button class="btn btn-secondary rounded-pill px-3" type="button">Add to Cart</button>
+        </div>
 
-</section>
+    </div>
 
-<!--Notice-->
-<div class="container-notice">
-    <h2 class="notice">NOTICE</h2>
-    <a href="#">New Collection Arrival On March 2024</a>
-    <br>
-    <a href="#">Promotion On Febuary 2024</a>
-    <br>
-    <a href="#">Promotion On January 2024</a>
-    <br>
-    <a href="#">Promotion On December 2023</a>
-    <br>
-    <a href="#">Promotion On November 2023</a>
-</div>
+
+
+
+ </div>
+
+
+
+
+
+
 
 <!--Footer-->
-
 <section >
     <footer class="pt-4">
         <div class="row g-0">
@@ -162,9 +149,6 @@
         </div>
       </footer>
 </section>
-
-
-
 
 
 
